@@ -1,0 +1,128 @@
+/*....................Navber.........*/
+.Navber {
+  height: 100px;
+  width: 100%;
+  position: absolute;
+  margin-top: -68vh;
+}
+.Navber-Item {
+  height: 50px;
+  width: 70%;
+  margin: 0px auto;
+}
+.Navber-Item ul li a {
+  color: rgb(255, 255, 255);
+  font-family: Khmer OS Fasthand;
+  padding: 12px 14px;
+}
+/*................The End Navber......................*/
+
+/*................. Name Stung Areng Attractions .....*/
+.Name {
+  height: 100px;
+  width: 100%;
+  color: rgb(183, 180, 180);
+  position: absolute;
+  margin-top: -55vh;
+  text-align: center;
+}
+.Name h1 {
+  font-size: 80px;
+  text-shadow: 2px 2px 4px #000000;
+  font-family: Khmer OS Muol Light;
+}
+.Name h4 {
+  font-size: 50px;
+  text-shadow: 2px 2px 4px #000000;
+}
+.box-Artcles {
+  height: 100px;
+  width: 100%;
+  position: absolute;
+  margin-top: -30vh;
+}
+.box-in {
+  height: 200px;
+  width: 40%;
+  margin: 0px auto;
+}
+/*................  End Name Stung Areng Attractions ..........*/
+
+/* ........................CSS Item in Homepage.......................*/
+.box-Item {
+  height: 600px;
+  width: 100%;
+  margin-top: 50px;
+}
+.box-s {
+  height: 600px;
+  width: 60%;
+  margin: 0px auto;
+}
+.Col-Item {
+  padding: 80px;
+  text-align: center;
+}
+.card-body h5 {
+  font-family: Khmer OS Muol Light;
+}
+/*------------------------ End CSS Item in Homepage-------------------------*/
+
+/*................... Name Item in Page ....................*/
+.container_Name_Item {
+  height: 100px;
+  width: 100%;
+  margin-top: 70px;
+}
+.box_Name_Item {
+  background-color: rgb(230, 226, 222);
+  height: 80px;
+  width: 20%;
+  margin: 0px auto;
+  border-radius: 19px;
+  border: 2px solid gray;
+}
+.box_Name_Item h2 {
+  font-family: Khmer OS Fasthand;
+  text-align: center;
+  padding: 20px 0px;
+}
+/*...................End  Name Item in Page ....................*/
+
+/*.................. container page  setup..........................*/
+.container_page {
+  height: 200vh;
+  width: 100%;
+  margin-top: 60px;
+}
+.container_page_setup {
+  background-color: rgb(220, 216, 216);
+  height: 200vh;
+  width: 60%;
+  margin: 0px auto;
+}
+.container_page_setup h4 {
+  padding: 0px 15px;
+  font-family: Khmer OS Muol Light;
+}
+.container_page_setup p {
+  text-indent: 40px;
+  font-family: Khmer OS Battambang;
+  padding: 0px 25px;
+  font-size: 18px;
+}
+
+/*..................End Container page  setup..........................*/
+
+/*........... CSS Footer .........*/
+.footer {
+  margin-top: 180px;
+}
+
+/* Phone */
+@media (max-width: 575px) {
+  .Navber-Item {
+    margin: 0px;
+    width: 100%;
+  }
+}
